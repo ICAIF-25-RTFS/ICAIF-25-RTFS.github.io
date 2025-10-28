@@ -125,6 +125,7 @@
             <!-- Desktop Navigation -->
             <nav class="hidden md:flex space-x-6 lg:space-x-8 text-sm">
                 <a href="#cfp" class="nav-link text-slate-300">Call for Papers</a>
+                <a href="#accepted-papers" class="nav-link text-slate-300">Accepted Papers</a>
                 <a href="#speakers" class="nav-link text-slate-300">Speakers</a>
                 <a href="#topics" class="nav-link text-slate-300">Topics</a>
                 <a href="#schedule" class="nav-link text-slate-300">Schedule</a>
@@ -144,6 +145,7 @@
         <div id="mobile-menu" class="hidden md:hidden border-t border-gray-800">
             <div class="pt-2 pb-3 space-y-1">
                 <a href="#cfp" class="block py-3 px-4 sm:px-6 text-base font-medium text-slate-300 hover:bg-gray-800/50 hover:text-white">Call for Papers</a>
+                <a href="#accepted-papers" class="block py-3 px-4 sm:px-6 text-base font-medium text-slate-300 hover:bg-gray-800/50 hover:text-white">Accepted Papers</a>
                 <a href="#speakers" class="block py-3 px-4 sm:px-6 text-base font-medium text-slate-300 hover:bg-gray-800/50 hover:text-white">Speakers</a>
                 <a href="#topics" class="block py-3 px-4 sm:px-6 text-base font-medium text-slate-300 hover:bg-gray-800/50 hover:text-white">Topics</a>
                 <a href="#schedule" class="block py-3 px-4 sm:px-6 text-base font-medium text-slate-300 hover:bg-gray-800/50 hover:text-white">Schedule</a>
@@ -204,7 +206,7 @@
                     <a href="#about" class="w-full sm:w-auto bg-sky-500 text-white font-bold py-3 px-8 rounded-full hover:bg-sky-600 transition duration-300">Learn More</a>
                     <a href="#cfp" class="w-full sm:w-auto bg-purple-500 text-white font-bold py-3 px-8 rounded-full hover:bg-purple-600 transition duration-300">Call For Papers</a>
                     <button id="poster-toggle-button" class="w-full sm:w-auto bg-indigo-500 text-white font-bold py-3 px-8 rounded-full hover:bg-indigo-600 transition duration-300">View Poster</button>
-                    <a href="#committee" class="w-full sm:w-auto bg-pink-500 text-white font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition duration-300">Call for PC</a>
+                    <!-- Removed Call for PC Button -->
                 </div>
                 
                  <div class="mt-12 text-slate-300">
@@ -252,7 +254,7 @@
                             <a href="https://openreview.net/group?id=ACM.org/ICAIF/2025/Workshop/RFTS&referrer=%5BHomepage%5D(%2F)#tab-recent-activity" target="_blank" class="bg-sky-500 text-white font-bold py-3 px-8 rounded-full hover:bg-sky-600 transition duration-300 inline-block w-full">Submit via OpenReview</a>
                         </div>
                     </div>
-        
+                
                     <!-- Submission Guidelines -->
                     <div class="md:col-span-2 space-y-6">
                         <h3 class="text-3xl font-bold text-white text-center md:text-left">Submission Guidelines</h3>
@@ -277,8 +279,74 @@
             </div>
         </section>
 
+        <!-- Accepted Papers Section (NEW) -->
+        <section id="accepted-papers" class="py-16 sm:py-20 bg-gray-900/50">
+            <div class="container mx-auto px-4 sm:px-6">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center gradient-text">Accepted Papers</h2>
+                <div class="max-w-4xl mx-auto glass-card rounded-lg p-6 sm:p-8">
+                    <ol class="space-y-6 list-decimal list-inside text-slate-300">
+                        <!-- Paper 1 -->
+                        <li class="pl-2">
+                            <p class="font-semibold text-white">FinTSB: A Comprehensive and Practical Benchmark for Financial Time Series Forecasting <span class="ml-2 inline-block bg-yellow-400 text-yellow-900 text-xs font-bold px-2.5 py-0.5 rounded-full">Best Paper</span></p>
+                            <p class="text-sm text-slate-400 mt-1 italic pl-6">Yifan Hu, Yuante Li, Peiyuan Liu, Naiqi Li, Tao Dai, Shu-Tao Xia, Dawei Cheng</p>
+                        </li>
+                        <!-- Paper 2 -->
+                        <li class="pl-2">
+                            <p class="font-semibold text-white">Reasoning on Time-Series for Financial Analysis <span class="ml-2 inline-block bg-yellow-400 text-yellow-900 text-xs font-bold px-2.5 py-0.5 rounded-full">Best Paper</span></p>
+                            <p class="text-sm text-slate-400 mt-1 italic pl-6">Kelvin J.L. Koa, Jan Chen, Yunshan Ma, Zheng Huanhuan, Tat-Seng Chua</p>
+                        </li>
+                        <!-- Paper 3 -->
+                        <li class="pl-2">
+                            <p class="font-semibold text-white">MARCD: Tail-Aware, Regime-Expert Diffusion to Drive CVaR-Constrained Portfolio Decisions</p>
+                            <p class="text-sm text-slate-400 mt-1 italic pl-6">Ali Atiah Alzahrani</p>
+                        </li>
+                        <!-- Paper 4 -->
+                        <li class="pl-2">
+                            <p class="font-semibold text-white">Enhancing Portfolio Decisions Using Time Series Forecasting with LLMs</p>
+                            <p class="text-sm text-slate-400 mt-1 italic pl-6">TAEKYUNG LIM, Jang Ho Kim</p>
+                        </li>
+                        <!-- Paper 5 -->
+                        <li class="pl-2">
+                            <p class="font-semibold text-white">Robust Pricing of To-Be-Announced (TBA) securities</p>
+                            <p class="text-sm text-slate-400 mt-1 italic pl-6">Matias Altamirano, Sophia Sosnina, Jan Szopinski, Miha Torkar, Saher Esmeir</p>
+                        </li>
+                        <!-- Paper 6 -->
+                        <li class="pl-2">
+                            <p class="font-semibold text-white">A Neural Network Informer In Algorithmic Investment Strategies on High Frequency Bitcoin Data</p>
+                            <p class="text-sm text-slate-400 mt-1 italic pl-6">Robert Ślepaczuk</p>
+                        </li>
+                        <!-- Paper 7 -->
+                        <li class="pl-2">
+                            <p class="font-semibold text-white">LLM-guided Factor Generation for Explainable Coal Price Forecasting</p>
+                            <p class="text-sm text-slate-400 mt-1 italic pl-6">Kangmin Kim, Inwoo Tae, Juchan Kim, Hoyoung Lee, Junhyeong Lee, Sangjin Jin, Suhwan Park, Yongjae Lee</p>
+                        </li>
+                        <!-- Paper 8 -->
+                        <li class="pl-2">
+                            <p class="font-semibold text-white">Towards Causal Market Simulators</p>
+                            <p class="text-sm text-slate-400 mt-1 italic pl-6">Dennis Thumm, Luis Ontaneda Mijares</p>
+                        </li>
+                        <!-- Paper 9 -->
+                        <li class="pl-2">
+                            <p class="font-semibold text-white">Probabilistic Forecasting of High-Frequency Crypto Volatility via Decomposition-Integrated Recurrent Neural Networks</p>
+                            <p class="text-sm text-slate-400 mt-1 italic pl-6">Yosep na, Jun Young Byun, Jungyoon Song, Namhyoung Kim, Jae Wook Song</p>
+                        </li>
+                        <!-- Paper 10 -->
+                        <li class="pl-2">
+                            <p class="font-semibold text-white">Quantum-Inspired Image Encodings for Financial Time-Series Forecasting</p>
+                            <p class="text-sm text-slate-400 mt-1 italic pl-6">Henry Woo, Gunnho Song, Taeyoung Park</p>
+                        </li>
+                        <!-- Paper 11 -->
+                        <li class="pl-2">
+                            <p class="font-semibold text-white">Efficient Forward Curve Construction Using Neural Networks in Sparse Data Environments</p>
+                            <p class="text-sm text-slate-400 mt-1 italic pl-6">Gagandeep Singh Kaler, Chenyu Zhao, Yury Krongauz, Dhagash Mehta</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
         <!-- Speakers Section -->
-        <section id="speakers" class="py-16 sm:py-20 bg-gray-900/50">
+        <section id="speakers" class="py-16 sm:py-20"> <!-- Removed bg-gray-900/50 to alternate -->
             <div class="container mx-auto px-4 sm:px-6">
                 <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center text-white">Invited Speakers</h2>
                 <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 justify-center">
@@ -323,7 +391,7 @@
         </section>
 
         <!-- Topics of Interest Section -->
-        <section id="topics" class="py-16 sm:py-20">
+        <section id="topics" class="py-16 sm:py-20 bg-gray-900/50"> <!-- Added bg-gray-900/50 to alternate -->
             <div class="container mx-auto px-4 sm:px-6">
                 <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center text-white">Topics of Interest</h2>
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -401,17 +469,17 @@
         </section>
 
         <!-- Schedule Section -->
-        <section id="schedule" class="py-16 sm:py-20 bg-gray-900/50">
+        <section id="schedule" class="py-16 sm:py-20"> <!-- Removed bg-gray-900/50 to alternate -->
             <div class="container mx-auto px-4 sm:px-6">
                 <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center text-white">Schedule</h2>
                 <div class="max-w-3xl mx-auto">
                     <div class="relative border-l-2 border-sky-500 pl-8 space-y-10">
                         <!-- Timeline items -->
 <div class="relative"><div class="absolute -left-10 top-1 h-4 w-4 rounded-full bg-sky-500"></div><p class="font-bold text-sky-400">09:00 - 09:05 am</p><h3 class="text-xl font-semibold text-white mt-1">Opening Remarks</h3></div>
-                        <div class="relative"><div class="absolute -left-10 top-1 h-4 w-4 rounded-full bg-sky-500"></div><p class="font-bold text-sky-400">09:05 - 09:35 am</p><h3 class="text-xl font-semibold text-white mt-1">Speaker Talk # 1 (Prof. Theis Ingerslev Jensen)</h3></div>
-                        <div class="relative"><div class="absolute -left-10 top-1 h-4 w-4 rounded-full bg-sky-500"></div><p class="font-bold text-sky-400">09:35 - 10:05 am</p><h3 class="text-xl font-semibold text-white mt-1">Speaker Talk # 2 (Prof. Agostino Capponi) </h3></div>
+                        <div class="relative"><div class="absolute -left-10 top-1 h-4 w-4 rounded-full bg-sky-500"></div><p class="font-bold text-sky-400">09:05 - 09:35 am</p><h3 class="text-xl font-semibold text-white mt-1">Speaker Talk # 1 (Prof. Theis Ingerslev Jensen)</h3></div>
+                        <div class="relative"><div class="absolute -left-10 top-1 h-4 w-4 rounded-full bg-sky-500"></div><p class="font-bold text-sky-400">09:35 - 10:05 am</p><h3 class="text-xl font-semibold text-white mt-1">Speaker Talk # 2 (Prof. Agostino Capponi) </h3></div>
                         
-                                                <div class="relative">
+                                <div class="relative">
                             <div class="absolute -left-10 top-1 h-4 w-4 rounded-full bg-sky-500"></div>
                             <p class="font-bold text-sky-400">10:05 - 10:25 am</p>
                             <h3 class="text-xl font-semibold text-white mt-1">Best Papers Talks (# 1)</h3>
@@ -419,9 +487,9 @@
                             <p class="text-sm text-gray-400 mt-1 italic">Yifan Hu, Yuante Li, Peiyuan Liu, Naiqi Li, Tao Dai, Shu-Tao Xia, Dawei Cheng</p>
                         </div>
                         
-                        <div class="relative"><div class="absolute -left-10 top-1 h-4 w-4 rounded-full bg-slate-500"></div><p class="font-bold text-slate-400">10:25 - 10:40 am</p><h3 class="text-xl font-semibold text-white mt-1">Coffee Break</h3></div>
+                        <div class="relative"><div class="absolute -left-10 top-1 h-4 w-4 rounded-full bg-slate-500"></div><p class="font-bold text-slate-400">10:25 - 10:40 am</p><h3 class="text-xl font-semibold text-white mt-1">Coffee Break</h3></div>
                         
-                                                <div class="relative">
+                                <div class="relative">
                             <div class="absolute -left-10 top-1 h-4 w-4 rounded-full bg-sky-500"></div>
                             <p class="font-bold text-sky-400">10:40 - 11:00 am</p>
                             <h3 class="text-xl font-semibold text-white mt-1">Best Papers Talks (# 2)</h3>
@@ -429,18 +497,18 @@
                             <p class="text-sm text-gray-400 mt-1 italic">Kelvin J.L. Koa, Jan Chen, Yunshan Ma, Zheng Huanhuan, Tat-Seng Chua </p>
                         </div>
                         
-                        <div class="relative"><div class="absolute -left-10 top-1 h-4 w-4 rounded-full bg-sky-500"></div><p class="font-bold text-sky-400">11:00 - 11:30 am</p><h3 class="text-xl font-semibold text-white mt-1">Speaker Talk # 3 (Prof. Bo An)</h3></div>
-                        <div class="relative"><div class="absolute -left-10 top-1 h-4 w-4 rounded-full bg-sky-500"></div><p class="font-bold text-sky-400">11:30 - 12:00 pm</p><h3 class="text-xl font-semibold text-white mt-1">Speaker Talk # 4 (Dr. Ramasamy Savitha)</h3></div>
-                        <div class="relative"><div class="absolute -left-10 top-1 h-4 w-4 rounded-full bg-sky-500"></div><p class="font-bold text-sky-400">12:00 - 12:30 pm</p><h3 class="text-xl font-semibold text-white mt-1">Speaker Talk # 5 (Prof. Chen Ying)</h3></div>
-                        <div class="relative"><div class="absolute -left-10 top-1 h-4 w-4 rounded-full bg-sky-500"></div><p class="font-bold text-sky-400">12:30 - 12:35 pm</p><h3 class="text-xl font-semibold text-white mt-1">Closing Remarks</h3></div>
-                        <div class="relative"><div class="absolute -left-10 top-1 h-4 w-4 rounded-full bg-slate-500"></div><p class="font-bold text-slate-400">12:35 pm onwards</p><h3 class="text-xl font-semibold text-white mt-1">Networking & Poster Session</h3></div>
+                        <div class="relative"><div class="absolute -left-10 top-1 h-4 w-4 rounded-full bg-sky-500"></div><p class="font-bold text-sky-400">11:00 - 11:30 am</p><h3 class="text-xl font-semibold text-white mt-1">Speaker Talk # 3 (Prof. Bo An)</h3></div>
+                        <div class="relative"><div class="absolute -left-10 top-1 h-4 w-4 rounded-full bg-sky-500"></div><p class="font-bold text-sky-400">11:30 - 12:00 pm</p><h3 class="text-xl font-semibold text-white mt-1">Speaker Talk # 4 (Dr. Ramasamy Savitha)</h3></div>
+                        <div class="relative"><div class="absolute -left-10 top-1 h-4 w-4 rounded-full bg-sky-500"></div><p class="font-bold text-sky-400">12:00 - 12:30 pm</p><h3 class="text-xl font-semibold text-white mt-1">Speaker Talk # 5 (Prof. Chen Ying)</h3></div>
+                        <div class="relative"><div class="absolute -left-10 top-1 h-4 w-4 rounded-full bg-sky-500"></div><p class="font-bold text-sky-400">12:30 - 12:35 pm</p><h3 class="text-xl font-semibold text-white mt-1">Closing Remarks</h3></div>
+                        <div class="relative"><div class="absolute -left-10 top-1 h-4 w-4 rounded-full bg-slate-500"></div><p class="font-bold text-slate-400">12:35 pm onwards</p><h3 class="text-xl font-semibold text-white mt-1">Networking & Poster Session</h3></div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Organizers Section -->
-        <section id="organizers" class="py-16 sm:py-20">
+        <section id="organizers" class="py-16 sm:py-20 bg-gray-900/50"> <!-- Added bg-gray-900/50 to alternate -->
             <div class="container mx-auto px-4 sm:px-6">
                 <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center text-white">Organizers</h2>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
@@ -462,7 +530,7 @@
         </section>
 
         <!-- About Section -->
-        <section id="about" class="py-16 sm:py-20 bg-gray-900/50">
+        <section id="about" class="py-16 sm:py-20"> <!-- Removed bg-gray-900/50 to alternate -->
             <div class="container mx-auto px-4 sm:px-6">
                 <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center text-white">About the Workshop</h2>
                 <div class="max-w-4xl mx-auto text-slate-300 text-lg leading-relaxed space-y-6">
@@ -474,7 +542,7 @@
         </section>
         
         <!-- Program Committee Section -->
-        <section id="committee" class="py-16 sm:py-20">
+        <section id="committee" class="py-16 sm:py-20 bg-gray-900/50"> <!-- Added bg-gray-900/50 to alternate -->
             <div class="container mx-auto px-4 sm:px-6">
                 <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center text-white">Program Committee</h2>
                 <div class="max-w-6xl mx-auto">
@@ -528,16 +596,7 @@
                         </p>
                     </div>
 
-                    <!-- Call for PC Section -->
-                    <div class="mt-16 text-center">
-                        <h3 class="text-3xl font-bold mb-4 gradient-text">Call for Program Committee</h3>
-                        <p class="text-slate-300 mb-8 max-w-2xl mx-auto">
-                            To prepare for a large number of submissions, we plan to include a few external supporters in advance. We invite researchers and practitioners with relevant expertise to apply to join our Program Committee.
-                        </p>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeaEIDdOFGEyGK39nBtJv_lPYVOx07ATdvjtzbAs20n9e4w0Q/viewform?usp=dialog" target="_blank" class="inline-block bg-pink-500 text-white font-bold py-3 px-8 rounded-full hover:bg-pink-600 transition duration-300">
-                            Apply to be a PC Member
-                        </a>
-                    </div>
+                    <!-- Call for PC Section (REMOVED) -->
                 </div>
             </div>
         </section>
@@ -663,7 +722,7 @@
                                     <div class="text-center"><img src="organizer/mingjin.png" onerror="this.onerror=null;this.src='https://placehold.co/150x150/1e293b/9ca3af?text=MJ';" class="w-20 h-20 sm:w-24 sm:h-24 rounded-full mx-auto mb-2 border-2 border-slate-600 object-cover" alt="Ming Jin"><h4 class="text-sm font-semibold text-white">Ming Jin</h4><p class="text-xs text-slate-400">Griffith Univ</p></div>
                                     <div class="text-center"><img src="organizer/stefan-zohren.jpg" onerror="this.onerror=null;this.src='https://placehold.co/150x150/1e293b/9ca3af?text=SZ';" class="w-20 h-20 sm:w-24 sm:h-24 rounded-full mx-auto mb-2 border-2 border-slate-600 object-cover" alt="Stefan Zohren"><h4 class="text-sm font-semibold text-white">Stefan Zohren</h4><p class="text-xs text-slate-400">Univ of Oxford</p></div>
                                     <div class="text-center"><img src="organizer/Dhagash-Mehta.jpeg" onerror="this.onerror=null;this.src='https://placehold.co/150x150/1e293b/9ca3af?text=DM';" class="w-20 h-20 sm:w-24 sm:h-24 rounded-full mx-auto mb-2 border-2 border-slate-600 object-cover" alt="Dhagash Mehta"><h4 class="text-sm font-semibold text-white">Dhagash Mehta</h4><p class="text-xs text-slate-400">BlackRock, Inc.</p></div>
-                                    <div class="text-center"><img src="organizer/Yaxuan.jpeg" onerror="this.onerror=null;this.src='https://placehold.co/150x150/1e293b/9ca3af?text=YK';" class="w-20 h-20 sm:w-24 sm:h-24 rounded-full mx-auto mb-2 border-2 border-slate-600 object-cover" alt="Yaxuan Kong"><h4 class="text-sm font-semibold text-white">Yaxuan Kong</h4><p class="text-xs text-slate-400">Univ of Oxford</p></div>
+                                    <div class="text-center"><img src="organizer/Yaxuan.jpeg" onerror="this.onerror=null;this.src='https" class="w-20 h-20 sm:w-24 sm:h-24 rounded-full mx-auto mb-2 border-2 border-slate-600 object-cover" alt="Yaxuan Kong"><h4 class="text-sm font-semibold text-white">Yaxuan Kong</h4><p class="text-xs text-slate-400">Univ of Oxford</p></div>
                                     <div class="text-center"><img src="organizer/Changhee.jpeg" onerror="this.onerror=null;this.src='https://placehold.co/150x150/1e293b/9ca3af?text=CL';" class="w-20 h-20 sm:w-24 sm:h-24 rounded-full mx-auto mb-2 border-2 border-slate-600 object-cover" alt="Changhee Lee"><h4 class="text-sm font-semibold text-white">Changhee Lee</h4><p class="text-xs text-slate-400">Korea Univ</p></div>
                                     <div class="text-center"><img src="organizer/JaeHo.jpg"  onerror="this.onerror=null;this.src='https://placehold.co/150x150/1e293b/9ca3af?text=JK';" class="w-20 h-20 sm:w-24 sm:h-24 rounded-full mx-auto mb-2 border-2 border-slate-600 object-cover" alt="Jaeho Kim"><h4 class="text-sm font-semibold text-white">Jaeho Kim</h4><p class="text-xs text-slate-400">Korea Univ</p></div>
                                     <div class="text-center"><img src="organizer/haoni.jpeg" onerror="this.onerror=null;this.src='https://placehold.co/150x150/1e293b/9ca3af?text=HN';" class="w-20 h-20 sm:w-24 sm:h-24 rounded-full mx-auto mb-2 border-2 border-slate-600 object-cover" alt="Hao Ni"><h4 class="text-sm font-semibold text-white">Hao Ni</h4><p class="text-xs text-slate-400">UCL</p></div>
@@ -717,4 +776,3 @@
     </script>
 </body>
 </html>
-
